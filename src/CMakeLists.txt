@@ -6,3 +6,4 @@ function(add_day day)
 endfunction()
 
 configure_file(Config.hh.in Config.hh)
+add_day(day1)
