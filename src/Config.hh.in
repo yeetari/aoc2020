@@ -1,0 +1,5 @@
+#pragma once
+
+#include <string>
+
+const std::string ROOT_PATH = "${CMAKE_SOURCE_DIR}/";
