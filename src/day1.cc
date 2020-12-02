@@ -1,14 +1,14 @@
 #include <Day.hh>
 #include <Stream.hh>
 
-#include <fmt/core.h>
+#include <vector>
 
 static std::vector<int> s_inputs;
 
 void create_input() {
     s_inputs.clear();
-    Stream input("input/day1.txt");
-    while (auto *line = input.next()) {
+    Stream stream("input/day1.txt");
+    while (auto *line = stream.next()) {
         s_inputs.push_back(std::stoi(*line));
     }
 }
