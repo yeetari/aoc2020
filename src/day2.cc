@@ -1,8 +1,6 @@
 #include <Day.hh>
 #include <Stream.hh>
 
-#include <fmt/core.h>
-
 #include <vector>
 
 struct Input {

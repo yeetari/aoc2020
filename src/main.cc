@@ -5,7 +5,6 @@
 
 static void run(benchmark::State &state) {
     for (auto _ : state) {
-        create_input();
         solve_part_one();
         solve_part_two();
     }
